@@ -2,7 +2,6 @@ from classes.ninja import Ninja
 from classes.pirate import Pirate
 
 ninja = Ninja("Joshua")
-
 pirate = Pirate("Brian")
 
 while Ninja.home_base_health > 0 and Pirate.home_base_health > 0:
@@ -21,8 +20,3 @@ while Ninja.home_base_health > 0 and Pirate.home_base_health > 0:
 
 print(f"In the end, the ninja base has {Ninja.home_base_health} health")
 print(f"In the end, the pirate base has {Pirate.home_base_health} health")
-
-bill = Ninja("Bill")
-bill.show_stats()
-ninja.show_stats()
-pirate.show_stats()
